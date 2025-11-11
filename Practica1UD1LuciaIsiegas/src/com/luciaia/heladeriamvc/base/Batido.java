@@ -10,8 +10,8 @@ public class Batido extends Producto {
     public Batido() {
     }
 
-    public Batido(LocalDate fechaApertura, LocalDate fechaCaducidad, String nombre, double precio, String sabor, String tipoLeche, double litros) {
-        super(fechaApertura, fechaCaducidad, nombre, precio);
+    public Batido(String nombre, double precio, LocalDate fechaApertura, LocalDate fechaCaducidad, String sabor, String tipoLeche, double litros) {
+        super(nombre, precio, fechaApertura, fechaCaducidad);
         this.sabor = sabor;
         this.tipoLeche = tipoLeche;
         this.litros = litros;
@@ -37,7 +37,12 @@ public class Batido extends Producto {
         return litros;
     }
 
-    public void setLitrTso(double litros) {
+    public void setLitros(double litros) {
         this.litros = litros;
+    }
+
+    @Override
+    public String toString() {
+        return "Batido: \"" + getNombre() + "\"" + sabor + ", " + tipoLeche + ", " + litros + "L";
     }
 }

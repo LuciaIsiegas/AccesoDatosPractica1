@@ -7,9 +7,8 @@ public class PanelGofre {
     public JComboBox tipoMasaComboBox;
     public JRadioButton conGlutenComboBox;
     public JRadioButton sinGlutenComboBox;
-    private JPanel panelGofre;
+    public JPanel panel1;
 
-    public JPanel crear(){
-        return panelGofre;
+    public PanelGofre() {
     }
 }

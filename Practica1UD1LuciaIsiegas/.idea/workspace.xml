@@ -1,19 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a727d1cd-66d7-47e9-a486-c838d273b19a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+    <list default="true" id="a727d1cd-66d7-47e9-a486-c838d273b19a" name="Default Changelist" comment="Solucionamos commit de ayer">
+      <change afterPath="$PROJECT_DIR$/imageIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/util/Util.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practica1UD1LuciaIsiegas/com/luciaia/heladeriamvc/base/Batido.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practica1UD1LuciaIsiegas/com/luciaia/heladeriamvc/base/Batido.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practica1UD1LuciaIsiegas/com/luciaia/heladeriamvc/base/Gofre.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practica1UD1LuciaIsiegas/com/luciaia/heladeriamvc/base/Gofre.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practica1UD1LuciaIsiegas/com/luciaia/heladeriamvc/base/Helado.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practica1UD1LuciaIsiegas/com/luciaia/heladeriamvc/base/Helado.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practica1UD1LuciaIsiegas/com/luciaia/heladeriamvc/base/Producto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practica1UD1LuciaIsiegas/com/luciaia/heladeriamvc/base/Producto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practica1UD1LuciaIsiegas/com/luciaia/heladeriamvc/gui/PanelBatido.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practica1UD1LuciaIsiegas/com/luciaia/heladeriamvc/gui/PanelBatido.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practica1UD1LuciaIsiegas/com/luciaia/heladeriamvc/gui/PanelGofre.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practica1UD1LuciaIsiegas/com/luciaia/heladeriamvc/gui/PanelGofre.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practica1UD1LuciaIsiegas/com/luciaia/heladeriamvc/gui/PanelHelado.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practica1UD1LuciaIsiegas/com/luciaia/heladeriamvc/gui/PanelHelado.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practica1UD1LuciaIsiegas/com/luciaia/heladeriamvc/gui/ProductosControlador.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practica1UD1LuciaIsiegas/com/luciaia/heladeriamvc/gui/ProductosControlador.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practica1UD1LuciaIsiegas/com/luciaia/heladeriamvc/gui/ProductosModelo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practica1UD1LuciaIsiegas/com/luciaia/heladeriamvc/gui/ProductosModelo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practica1UD1LuciaIsiegas/com/luciaia/heladeriamvc/gui/Ventana.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practica1UD1LuciaIsiegas/com/luciaia/heladeriamvc/gui/Ventana.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/base/Batido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/base/Batido.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/base/Gofre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/base/Gofre.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/base/Helado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/base/Helado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/base/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/base/Producto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/gui/PanelBatido.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/gui/PanelBatido.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/gui/PanelBatido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/gui/PanelBatido.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/gui/PanelGofre.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/gui/PanelGofre.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/gui/PanelGofre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/gui/PanelGofre.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/gui/PanelHelado.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/gui/PanelHelado.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/gui/PanelHelado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/gui/PanelHelado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/gui/ProductosControlador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/gui/ProductosControlador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/gui/ProductosModelo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/gui/ProductosModelo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/gui/Ventana.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/gui/Ventana.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/gui/Ventana.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/gui/Ventana.java" afterDir="false" />
     </list>
@@ -34,8 +47,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="35CTbleSdXrYmj0GbQbiDqSfNZU" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW" value="true" />
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="241" />
@@ -100,7 +116,17 @@
       <workItem from="1762789616695" duration="201000" />
       <workItem from="1762790193125" duration="93000" />
       <workItem from="1762790307429" duration="7915000" />
+      <workItem from="1762872502740" duration="9151000" />
+      <workItem from="1762901347788" duration="2454000" />
     </task>
+    <task id="LOCAL-00001" summary="Solucionamos commit de ayer">
+      <created>1762872744371</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1762872744371</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,6 +135,31 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:C:/Users/Family/Desktop/Acceso a Datos/Practica1UD1LuciaIsiegas" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State>
@@ -118,5 +169,17 @@
         </entry>
       </map>
     </option>
+    <option name="OPEN_TABS">
+      <set>
+        <option value="1" />
+      </set>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Solucionamos commit de ayer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solucionamos commit de ayer" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>

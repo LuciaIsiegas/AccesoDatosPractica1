@@ -3,15 +3,15 @@ package com.luciaia.heladeriamvc.base;
 import java.time.LocalDate;
 
 public class Producto {
-    private LocalDate fechaApertura;
-    private LocalDate fechaCaducidad;
     private String nombre;
     private double precio;
+    private LocalDate fechaApertura;
+    private LocalDate fechaCaducidad;
 
     public Producto() {
     }
 
-    public Producto(LocalDate fechaApertura, LocalDate fechaCaducidad, String nombre, double precio) {
+    public Producto(String nombre, double precio, LocalDate fechaApertura, LocalDate fechaCaducidad) {
         this.fechaApertura = fechaApertura;
         this.fechaCaducidad = fechaCaducidad;
         this.nombre = nombre;

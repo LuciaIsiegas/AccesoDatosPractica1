@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.luciaia.heladeriamvc.gui.PanelGofre">
-  <grid id="27dc6" binding="panelGofre" layout-manager="FormLayout">
+  <grid id="27dc6" binding="panel1" layout-manager="FormLayout">
     <rowspec value="center:d:noGrow"/>
     <rowspec value="top:4dlu:noGrow"/>
     <rowspec value="center:max(d;4px):noGrow"/>
@@ -8,9 +8,9 @@
     <rowspec value="center:max(d;4px):noGrow"/>
     <colspec value="fill:107px:noGrow"/>
     <colspec value="left:4dlu:noGrow"/>
-    <colspec value="fill:118px:noGrow"/>
+    <colspec value="fill:153px:noGrow"/>
     <colspec value="left:4dlu:noGrow"/>
-    <colspec value="fill:117px:noGrow"/>
+    <colspec value="fill:153px:noGrow"/>
     <constraints>
       <xy x="20" y="20" width="500" height="400"/>
     </constraints>

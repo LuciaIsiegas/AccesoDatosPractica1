@@ -10,8 +10,8 @@ public class Gofre extends Producto {
     public Gofre() {
     }
 
-    public Gofre(LocalDate fechaApertura, LocalDate fechaCaducidad, String nombre, double precio, String topping, String tipoMasa, boolean gluten) {
-        super(fechaApertura, fechaCaducidad, nombre, precio);
+    public Gofre(String nombre, double precio, LocalDate fechaApertura, LocalDate fechaCaducidad, String topping, String tipoMasa, boolean gluten) {
+        super(nombre, precio, fechaApertura, fechaCaducidad);
         this.topping = topping;
         this.tipoMasa = tipoMasa;
         this.gluten = gluten;
@@ -39,5 +39,10 @@ public class Gofre extends Producto {
 
     public void setGluten(boolean gluten) {
         this.gluten = gluten;
+    }
+
+    @Override
+    public String toString() {
+        return "Gofre: \"" + getNombre() + "\"" + topping + ", " + tipoMasa + ", " + (gluten ? "con gluten" : " sin gluten");
     }
 }

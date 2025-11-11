@@ -10,8 +10,8 @@ public class Helado extends Producto {
     public Helado() {
     }
 
-    public Helado(LocalDate fechaApertura, LocalDate fechaCaducidad, String nombre, double precio, String sabor, boolean azucar, double litros) {
-        super(fechaApertura, fechaCaducidad, nombre, precio);
+    public Helado(String nombre, double precio, LocalDate fechaApertura, LocalDate fechaCaducidad, String sabor, boolean azucar, double litros) {
+        super(nombre, precio, fechaApertura, fechaCaducidad);
         this.sabor = sabor;
         this.azucar = azucar;
         this.litros = litros;
@@ -39,5 +39,10 @@ public class Helado extends Producto {
 
     public void setLitros(double litros) {
         this.litros = litros;
+    }
+
+    @Override
+    public String toString() {
+        return "Helado: \"" + getNombre() + "\"" + sabor + ", " + (azucar ? "con azúcar" : "sin azúcar") + ", " + litros + "L";
     }
 }

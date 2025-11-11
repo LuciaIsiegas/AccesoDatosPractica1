@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a727d1cd-66d7-47e9-a486-c838d273b19a" name="Default Changelist" comment="" />
+    <list default="true" id="a727d1cd-66d7-47e9-a486-c838d273b19a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/base/Batido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/base/Batido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/base/Gofre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/base/Gofre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/base/Helado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/base/Helado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/gui/PanelBatido.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/gui/PanelBatido.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/gui/PanelBatido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/gui/PanelBatido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/gui/PanelGofre.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/gui/PanelGofre.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/gui/PanelGofre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/gui/PanelGofre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/gui/PanelHelado.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/gui/PanelHelado.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/gui/PanelHelado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/gui/PanelHelado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/gui/Ventana.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/gui/Ventana.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/gui/Ventana.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/gui/Ventana.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,12 +30,19 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="35CTbleSdXrYmj0GbQbiDqSfNZU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW" value="true" />
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="241" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -42,6 +64,26 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.luciaia.heladeriamvc.Principal" />
+      <module name="Practica1UD1LuciaIsiegas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.luciaia.heladeriamvc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Principal" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -54,10 +96,27 @@
       <updated>1762613127112</updated>
       <workItem from="1762613131169" duration="5672000" />
       <workItem from="1762688376011" duration="1094000" />
+      <workItem from="1762695049412" duration="12937000" />
+      <workItem from="1762789616695" duration="201000" />
+      <workItem from="1762790193125" duration="93000" />
+      <workItem from="1762790307429" duration="7915000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

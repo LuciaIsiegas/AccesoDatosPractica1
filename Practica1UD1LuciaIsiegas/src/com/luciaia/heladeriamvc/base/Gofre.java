@@ -5,16 +5,16 @@ import java.time.LocalDate;
 public class Gofre extends Producto {
     private String topping;
     private String tipoMasa;
-    private boolean nata;
+    private boolean gluten;
 
     public Gofre() {
     }
 
-    public Gofre(LocalDate fechaApertura, LocalDate fechaCaducidad, String nombre, double precio, String topping, String tipoMasa, boolean nata) {
+    public Gofre(LocalDate fechaApertura, LocalDate fechaCaducidad, String nombre, double precio, String topping, String tipoMasa, boolean gluten) {
         super(fechaApertura, fechaCaducidad, nombre, precio);
         this.topping = topping;
         this.tipoMasa = tipoMasa;
-        this.nata = nata;
+        this.gluten = gluten;
     }
 
     public String getTopping() {
@@ -33,11 +33,11 @@ public class Gofre extends Producto {
         this.tipoMasa = tipoMasa;
     }
 
-    public boolean isNata() {
-        return nata;
+    public boolean isGluten() {
+        return gluten;
     }
 
-    public void setNata(boolean nata) {
-        this.nata = nata;
+    public void setGluten(boolean gluten) {
+        this.gluten = gluten;
     }
 }

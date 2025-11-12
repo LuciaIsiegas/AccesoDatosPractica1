@@ -26,7 +26,7 @@
           <text value="Topping"/>
         </properties>
       </component>
-      <component id="3e011" class="javax.swing.JTextField" binding="saborTxt">
+      <component id="3e011" class="javax.swing.JTextField" binding="toppingTxt">
         <constraints>
           <grid row="0" column="2" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="-1"/>
@@ -68,7 +68,7 @@
           <text value="Gluten"/>
         </properties>
       </component>
-      <component id="56ecd" class="javax.swing.JRadioButton" binding="conGlutenComboBox">
+      <component id="56ecd" class="javax.swing.JRadioButton" binding="conGlutenRadioButton">
         <constraints>
           <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
           <forms/>
@@ -77,7 +77,7 @@
           <text value="Con Gluten"/>
         </properties>
       </component>
-      <component id="42992" class="javax.swing.JRadioButton" binding="sinGlutenComboBox">
+      <component id="42992" class="javax.swing.JRadioButton" binding="sinGlutenRadioButton">
         <constraints>
           <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
           <forms/>

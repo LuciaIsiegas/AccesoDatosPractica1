@@ -3,10 +3,10 @@ package com.luciaia.heladeriamvc.gui;
 import javax.swing.*;
 
 public class PanelGofre {
-    public JTextField saborTxt;
+    public JTextField toppingTxt;
     public JComboBox tipoMasaComboBox;
-    public JRadioButton conGlutenComboBox;
-    public JRadioButton sinGlutenComboBox;
+    public JRadioButton conGlutenRadioButton;
+    public JRadioButton sinGlutenRadioButton;
     public JPanel panel1;
 
     public PanelGofre() {

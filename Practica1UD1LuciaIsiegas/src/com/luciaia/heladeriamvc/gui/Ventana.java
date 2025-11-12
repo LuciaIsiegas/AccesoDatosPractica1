@@ -1,6 +1,7 @@
 package com.luciaia.heladeriamvc.gui;
 
 import com.github.lgooddatepicker.components.DatePicker;
+import com.luciaia.heladeriamvc.base.Producto;
 
 import javax.swing.*;
 import java.awt.*;
@@ -14,6 +15,7 @@ public class Ventana {
     public JButton nuevoButton;
     public JButton editarButton;
     public JButton eliminarButton;
+    public JButton borrarDatosButton;
     public JList list1;
     public DatePicker fechaAperturaDatePicker;
     public DatePicker fechaCaducicdadDatePicker;
@@ -21,14 +23,16 @@ public class Ventana {
     public JRadioButton batidoRadioButton;
     public PanelHelado panelHelado;
 
-    private JFrame frame;
+    public JFrame frame;
     public PanelGofre panelGofre;
     public PanelBatido panelBatido;
     public JMenuBar menuBar;
     public JMenu menu;
     public JMenuItem menuImportar;
     public JMenuItem menuExportar;
-    private JButton borrarDatosButton;
+
+
+    public DefaultListModel<Producto> dlmProducto;
 
 
     public Ventana() {
@@ -49,6 +53,8 @@ public class Ventana {
         frame.pack();
         frame.setVisible(true);
         frame.setLocationRelativeTo(null);
+
+        initComponents();
     }
 
     public void crearMenu() {
@@ -74,8 +80,8 @@ public class Ventana {
         panelCard.add(panelBatido.panel1, "Batido");
     }
 
-
-    private void createUIComponents() {
-        // TODO: place custom component creation code here
+    private void initComponents() {
+        dlmProducto = new DefaultListModel<Producto>();
+        list1.setModel(dlmProducto);
     }
 }

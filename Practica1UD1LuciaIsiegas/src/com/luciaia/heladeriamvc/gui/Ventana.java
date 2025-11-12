@@ -35,7 +35,7 @@ public class Ventana {
         frame = new JFrame("HeladeríaMVC");
         frame.setContentPane(panel1);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setIconImage(new ImageIcon("imageIcon.png").getImage());
+        frame.setIconImage(new ImageIcon("Icono.png").getImage());
 
         crearMenu();
         crearPanelCard();

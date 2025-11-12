@@ -2,32 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a727d1cd-66d7-47e9-a486-c838d273b19a" name="Default Changelist" comment="Solucionamos commit de ayer">
-      <change afterPath="$PROJECT_DIR$/imageIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/util/Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Icono.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practica1UD1LuciaIsiegas/com/luciaia/heladeriamvc/base/Batido.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practica1UD1LuciaIsiegas/com/luciaia/heladeriamvc/base/Batido.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practica1UD1LuciaIsiegas/com/luciaia/heladeriamvc/base/Gofre.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practica1UD1LuciaIsiegas/com/luciaia/heladeriamvc/base/Gofre.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practica1UD1LuciaIsiegas/com/luciaia/heladeriamvc/base/Helado.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practica1UD1LuciaIsiegas/com/luciaia/heladeriamvc/base/Helado.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practica1UD1LuciaIsiegas/com/luciaia/heladeriamvc/base/Producto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practica1UD1LuciaIsiegas/com/luciaia/heladeriamvc/base/Producto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practica1UD1LuciaIsiegas/com/luciaia/heladeriamvc/gui/PanelBatido.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practica1UD1LuciaIsiegas/com/luciaia/heladeriamvc/gui/PanelBatido.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practica1UD1LuciaIsiegas/com/luciaia/heladeriamvc/gui/PanelGofre.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practica1UD1LuciaIsiegas/com/luciaia/heladeriamvc/gui/PanelGofre.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practica1UD1LuciaIsiegas/com/luciaia/heladeriamvc/gui/PanelHelado.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practica1UD1LuciaIsiegas/com/luciaia/heladeriamvc/gui/PanelHelado.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practica1UD1LuciaIsiegas/com/luciaia/heladeriamvc/gui/ProductosControlador.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practica1UD1LuciaIsiegas/com/luciaia/heladeriamvc/gui/ProductosControlador.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practica1UD1LuciaIsiegas/com/luciaia/heladeriamvc/gui/ProductosModelo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practica1UD1LuciaIsiegas/com/luciaia/heladeriamvc/gui/ProductosModelo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imageIcon.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Practica1UD1LuciaIsiegas/com/luciaia/heladeriamvc/gui/Ventana.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practica1UD1LuciaIsiegas/com/luciaia/heladeriamvc/gui/Ventana.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/base/Batido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/base/Batido.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/base/Gofre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/base/Gofre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/base/Helado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/base/Helado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/base/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/base/Producto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/gui/PanelBatido.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/gui/PanelBatido.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/gui/PanelBatido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/gui/PanelBatido.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/gui/PanelGofre.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/gui/PanelGofre.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/gui/PanelGofre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/gui/PanelGofre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/gui/PanelHelado.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/gui/PanelHelado.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/gui/PanelHelado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/gui/PanelHelado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/gui/ProductosControlador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/gui/ProductosControlador.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/gui/ProductosModelo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/gui/ProductosModelo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/gui/Ventana.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/gui/Ventana.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/gui/Ventana.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/gui/Ventana.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -117,7 +96,7 @@
       <workItem from="1762790193125" duration="93000" />
       <workItem from="1762790307429" duration="7915000" />
       <workItem from="1762872502740" duration="9151000" />
-      <workItem from="1762901347788" duration="2454000" />
+      <workItem from="1762901347788" duration="5899000" />
     </task>
     <task id="LOCAL-00001" summary="Solucionamos commit de ayer">
       <created>1762872744371</created>

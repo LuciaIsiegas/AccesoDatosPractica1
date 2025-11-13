@@ -8,7 +8,7 @@
     <rowspec value="center:max(d;4px):noGrow"/>
     <colspec value="fill:107px:noGrow"/>
     <colspec value="left:4dlu:noGrow"/>
-    <colspec value="fill:308px:grow"/>
+    <colspec value="fill:368px:grow"/>
     <constraints>
       <xy x="20" y="20" width="500" height="400"/>
     </constraints>

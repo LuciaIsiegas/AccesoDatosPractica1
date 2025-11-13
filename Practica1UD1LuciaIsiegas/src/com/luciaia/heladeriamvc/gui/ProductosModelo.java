@@ -126,6 +126,7 @@ public class ProductosModelo {
             } else {
                 nodoProducto = document.createElement(BATIDO);
             }
+            raiz.appendChild(nodoProducto);
 
             nodoDatos = document.createElement("Nombre");
             nodoProducto.appendChild(nodoDatos);
@@ -196,11 +197,13 @@ public class ProductosModelo {
             }
         }
 
+
         Source source = new DOMSource(document);
         Result result = new StreamResult(fichero);
 
         Transformer transformer = TransformerFactory.newInstance().newTransformer();
         transformer.transform(source, result);
+
     }
 
     public void importarXML(File fichero) throws ParserConfigurationException, IOException, SAXException {

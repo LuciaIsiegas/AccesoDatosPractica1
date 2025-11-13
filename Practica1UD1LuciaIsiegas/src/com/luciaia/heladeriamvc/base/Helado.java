@@ -43,6 +43,7 @@ public class Helado extends Producto {
 
     @Override
     public String toString() {
-        return "Helado: \"" + getNombre() + "\", " + sabor + ", " + (azucar ? "con azúcar" : "sin azúcar") + ", " + litros + "L";
+        return "Helado: \"" + getNombre() + "\", " + getPrecio() + "€, " + getFechaApertura() + ", "
+                + getFechaCaducidad() + ", "  + sabor + ", " + (azucar ? "con azúcar" : "sin azúcar") + ", " + litros + "L";
     }
 }

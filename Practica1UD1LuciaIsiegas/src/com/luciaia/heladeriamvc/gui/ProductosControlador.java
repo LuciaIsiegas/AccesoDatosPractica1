@@ -457,25 +457,29 @@ public class ProductosControlador implements ActionListener, ListSelectionListen
                     try {
                         modelo.importarXML(selectorFichero.getSelectedFile());
                     } catch (ParserConfigurationException ex) {
-                        ex.printStackTrace();
+                        Util.mensajeError("No se han podido importar los datos", "Error");
                     } catch (IOException ex) {
-                        ex.printStackTrace();
+                        Util.mensajeError("No se han podido importar los datos", "Error");
                     } catch (SAXException ex) {
-                        ex.printStackTrace();
+                        Util.mensajeError("No se han podido importar los datos", "Error");
                     }
                     refrescar();
                 }
                 break;
             case "Exportar":
+                if (modelo.obtenerProductos().isEmpty()) {
+                    Util.mensajeError("No hay productos que exportar", "Error");
+                    break;
+                }
                 JFileChooser selectorFichero2 = Util.crearSelectorFichero(ultimaRutaExportada, "Archivo XML", "xml");
                 int opt2 = selectorFichero2.showSaveDialog(null);
                 if (opt2 == JFileChooser.APPROVE_OPTION) {
                     try {
                         modelo.exportarXML(selectorFichero2.getSelectedFile());
                     } catch (ParserConfigurationException ex) {
-                        ex.printStackTrace();
+                        Util.mensajeError("No se han podido exportar los datos", "Error");
                     } catch (TransformerException ex) {
-                        ex.printStackTrace();
+                        Util.mensajeError("No se han podido exportar los datos", "Error");
                     }
                 }
                 break;

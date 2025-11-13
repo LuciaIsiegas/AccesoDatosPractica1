@@ -21,6 +21,9 @@ public class Ventana {
     public DatePicker fechaCaducicdadDatePicker;
     public JPanel panelCard;
     public JRadioButton batidoRadioButton;
+    public JButton guardarButton;
+    public JButton limpiarButton;
+    public JButton cancelarButton;
     public PanelHelado panelHelado;
 
     public JFrame frame;
@@ -38,17 +41,16 @@ public class Ventana {
     public Ventana() {
         frame = new JFrame("HeladeríaMVC");
         frame.setContentPane(panel1);
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
         frame.setIconImage(new ImageIcon("Icono.png").getImage());
 
+        heladoRadioButton.setSelected(true);
         crearMenu();
         crearPanelCard();
+        botonesVisibles();
 
-        /**
-         * Sirve para cambiar de paneles
-         */
         CardLayout cl = (CardLayout) (panelCard.getLayout());
-        cl.show(panelCard, "Batido");
+        cl.show(panelCard, "Helado");
 
         frame.pack();
         frame.setVisible(true);
@@ -71,13 +73,20 @@ public class Ventana {
 
     public void crearPanelCard() {
         panelHelado = new PanelHelado();
+        panelHelado.conAzucarRadioButton.setSelected(true);
         panelCard.add(panelHelado.panel1, "Helado");
 
         panelGofre = new PanelGofre();
+        panelGofre.conGlutenRadioButton.setSelected(true);
         panelCard.add(panelGofre.panel1, "Gofre");
 
         panelBatido = new PanelBatido();
         panelCard.add(panelBatido.panel1, "Batido");
+    }
+
+    private void botonesVisibles() {
+        cancelarButton.setVisible(false);
+        guardarButton.setVisible(false);
     }
 
     private void initComponents() {

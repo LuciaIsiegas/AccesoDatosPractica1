@@ -43,6 +43,6 @@ public class Gofre extends Producto {
 
     @Override
     public String toString() {
-        return "Gofre: \"" + getNombre() + "\"" + topping + ", " + tipoMasa + ", " + (gluten ? "con gluten" : " sin gluten");
+        return "Gofre: \"" + getNombre() + "\", " + topping + ", " + tipoMasa + ", " + (gluten ? "con gluten" : " sin gluten");
     }
 }

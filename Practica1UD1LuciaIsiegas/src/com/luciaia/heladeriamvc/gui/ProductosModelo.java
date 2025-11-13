@@ -17,6 +17,7 @@ import java.io.File;
 import java.io.IOException;
 import java.time.LocalDate;
 import java.util.ArrayList;
+import java.util.UUID;
 
 public class ProductosModelo {
     public static final String HELADO = "Helado";
@@ -29,6 +30,7 @@ public class ProductosModelo {
     }
 
     public ArrayList<Producto> obtenerProductos() {
+        //       UUID.randomUUID().toString()
         return listaProductos;
     }
 
@@ -55,8 +57,17 @@ public class ProductosModelo {
         listaProductos.add(batido);
     }
 
-    public void editarHelado(Helado helado, String nombre, double precio, LocalDate fechaApertura, LocalDate fechaCaducidad, String sabor, boolean azucar, double litros) {
-        helado.setNombre(nombre);
+    public Producto buscarProducto(String nombre) {
+        for (Producto producto : listaProductos) {
+            if (producto.getNombre().equals(nombre)) {
+                return producto;
+            }
+        }
+        return null;
+    }
+
+    public void editarHelado(String nombre, double precio, LocalDate fechaApertura, LocalDate fechaCaducidad, String sabor, boolean azucar, double litros) {
+        Helado helado = (Helado) buscarProducto(nombre);
         helado.setPrecio(precio);
         helado.setFechaApertura(fechaApertura);
         helado.setFechaCaducidad(fechaCaducidad);
@@ -65,8 +76,8 @@ public class ProductosModelo {
         helado.setLitros(litros);
     }
 
-    public void editarGofre(Gofre gofre, String nombre, double precio, LocalDate fechaApertura, LocalDate fechaCaducidad, String topping, String tipoMasa, boolean gluten) {
-        gofre.setNombre(nombre);
+    public void editarGofre(String nombre, double precio, LocalDate fechaApertura, LocalDate fechaCaducidad, String topping, String tipoMasa, boolean gluten) {
+        Gofre gofre = (Gofre) buscarProducto(nombre);
         gofre.setPrecio(precio);
         gofre.setFechaApertura(fechaApertura);
         gofre.setFechaCaducidad(fechaCaducidad);
@@ -75,8 +86,8 @@ public class ProductosModelo {
         gofre.setGluten(gluten);
     }
 
-    public void editarBatido(Batido batido, String nombre, double precio, LocalDate fechaApertura, LocalDate fechaCaducidad, String sabor, String tipoLeche, double litros) {
-        batido.setNombre(nombre);
+    public void editarBatido(String nombre, double precio, LocalDate fechaApertura, LocalDate fechaCaducidad, String sabor, String tipoLeche, double litros) {
+        Batido batido = (Batido) buscarProducto(nombre);
         batido.setPrecio(precio);
         batido.setFechaApertura(fechaApertura);
         batido.setFechaCaducidad(fechaCaducidad);
@@ -139,48 +150,48 @@ public class ProductosModelo {
             if (producto instanceof Helado) {
                 nodoDatos = document.createElement("Sabor");
                 nodoProducto.appendChild(nodoDatos);
-                texto = document.createTextNode(((Helado)producto).getSabor());
+                texto = document.createTextNode(((Helado) producto).getSabor());
                 nodoDatos.appendChild(texto);
 
                 nodoDatos = document.createElement("Azucar");
                 nodoProducto.appendChild(nodoDatos);
-                texto = document.createTextNode(String.valueOf(((Helado)producto).isAzucar()));
+                texto = document.createTextNode(String.valueOf(((Helado) producto).isAzucar()));
                 nodoDatos.appendChild(texto);
 
                 nodoDatos = document.createElement("Litros");
                 nodoProducto.appendChild(nodoDatos);
-                texto = document.createTextNode(String.valueOf(((Helado)producto).getLitros()));
+                texto = document.createTextNode(String.valueOf(((Helado) producto).getLitros()));
                 nodoDatos.appendChild(texto);
 
             } else if (producto instanceof Gofre) {
                 nodoDatos = document.createElement("Topping");
                 nodoProducto.appendChild(nodoDatos);
-                texto = document.createTextNode(((Gofre)producto).getTopping());
+                texto = document.createTextNode(((Gofre) producto).getTopping());
                 nodoDatos.appendChild(texto);
 
                 nodoDatos = document.createElement("TipoMasa");
                 nodoProducto.appendChild(nodoDatos);
-                texto = document.createTextNode(((Gofre)producto).getTipoMasa());
+                texto = document.createTextNode(((Gofre) producto).getTipoMasa());
                 nodoDatos.appendChild(texto);
 
                 nodoDatos = document.createElement("Gluten");
                 nodoProducto.appendChild(nodoDatos);
-                texto = document.createTextNode(String.valueOf(((Gofre)producto).isGluten()));
+                texto = document.createTextNode(String.valueOf(((Gofre) producto).isGluten()));
                 nodoDatos.appendChild(texto);
             } else {
                 nodoDatos = document.createElement("Sabor");
                 nodoProducto.appendChild(nodoDatos);
-                texto = document.createTextNode(((Batido)producto).getSabor());
+                texto = document.createTextNode(((Batido) producto).getSabor());
                 nodoDatos.appendChild(texto);
 
                 nodoDatos = document.createElement("TipoLeche");
                 nodoProducto.appendChild(nodoDatos);
-                texto = document.createTextNode(((Batido)producto).getTipoLeche());
+                texto = document.createTextNode(((Batido) producto).getTipoLeche());
                 nodoDatos.appendChild(texto);
 
                 nodoDatos = document.createElement("Litros");
                 nodoProducto.appendChild(nodoDatos);
-                texto = document.createTextNode(String.valueOf(((Batido)producto).getLitros()));
+                texto = document.createTextNode(String.valueOf(((Batido) producto).getLitros()));
                 nodoDatos.appendChild(texto);
             }
         }

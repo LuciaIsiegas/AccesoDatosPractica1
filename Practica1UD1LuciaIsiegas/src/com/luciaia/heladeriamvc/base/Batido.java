@@ -43,6 +43,6 @@ public class Batido extends Producto {
 
     @Override
     public String toString() {
-        return "Batido: \"" + getNombre() + "\"" + sabor + ", " + tipoLeche + ", " + litros + "L";
+        return "Batido: \"" + getNombre() + "\", " + sabor + ", " + tipoLeche + ", " + litros + "L";
     }
 }

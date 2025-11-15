@@ -1,18 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Practica1UD1LuciaIsiegas:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="a727d1cd-66d7-47e9-a486-c838d273b19a" name="Default Changelist" comment="Solucionamos commit de ayer">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Practica1UD1LuciaIsiegas_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cancel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practica1UD1LuciaIsiegas/com/luciaia/heladeriamvc/Principal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practica1UD1LuciaIsiegas/com/luciaia/heladeriamvc/Principal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practica1UD1LuciaIsiegas/com/luciaia/heladeriamvc/gui/PanelBatido.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practica1UD1LuciaIsiegas/com/luciaia/heladeriamvc/gui/PanelBatido.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practica1UD1LuciaIsiegas/com/luciaia/heladeriamvc/gui/PanelGofre.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practica1UD1LuciaIsiegas/com/luciaia/heladeriamvc/gui/PanelGofre.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practica1UD1LuciaIsiegas/com/luciaia/heladeriamvc/gui/PanelHelado.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practica1UD1LuciaIsiegas/com/luciaia/heladeriamvc/gui/PanelHelado.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practica1UD1LuciaIsiegas/com/luciaia/heladeriamvc/gui/ProductosControlador.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practica1UD1LuciaIsiegas/com/luciaia/heladeriamvc/gui/ProductosControlador.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practica1UD1LuciaIsiegas/com/luciaia/heladeriamvc/gui/ProductosModelo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practica1UD1LuciaIsiegas/com/luciaia/heladeriamvc/gui/ProductosModelo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practica1UD1LuciaIsiegas/com/luciaia/heladeriamvc/gui/Ventana.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practica1UD1LuciaIsiegas/com/luciaia/heladeriamvc/gui/Ventana.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/productos.conf" beforeDir="false" afterPath="$PROJECT_DIR$/productos.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/base/Batido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/base/Batido.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/base/Gofre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/base/Gofre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/base/Helado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/base/Helado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/Principal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/gui/PanelBatido.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/gui/PanelBatido.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/gui/PanelGofre.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/gui/PanelGofre.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/gui/PanelHelado.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/gui/PanelHelado.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/gui/ProductosControlador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/gui/ProductosControlador.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/gui/ProductosModelo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/gui/ProductosModelo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/gui/Ventana.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/gui/Ventana.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/gui/Ventana.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/gui/Ventana.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/util/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luciaia/heladeriamvc/util/Util.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,11 +56,12 @@
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="241" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -64,7 +80,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Principal">
     <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.luciaia.heladeriamvc.Principal" />
       <module name="Practica1UD1LuciaIsiegas" />
@@ -78,9 +94,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Practica1UD1LuciaIsiegas.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/Practica1UD1LuciaIsiegas_jar/Practica1UD1LuciaIsiegas.jar" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Principal" />
+        <item itemvalue="JAR Application.Practica1UD1LuciaIsiegas.jar" />
       </list>
     </recent_temporary>
   </component>
@@ -104,7 +125,9 @@
       <workItem from="1762901347788" duration="10675000" />
       <workItem from="1762958870989" duration="15727000" />
       <workItem from="1762987344970" duration="8255000" />
-      <workItem from="1763046020677" duration="5261000" />
+      <workItem from="1763046020677" duration="8568000" />
+      <workItem from="1763130583609" duration="16626000" />
+      <workItem from="1763212655269" duration="2347000" />
     </task>
     <task id="LOCAL-00001" summary="Solucionamos commit de ayer">
       <created>1762872744371</created>
@@ -173,37 +196,29 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/luciaia/heladeriamvc/gui/ProductosModelo.java</url>
-          <line>41</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/luciaia/heladeriamvc/gui/ProductosModelo.java</url>
-          <line>37</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/luciaia/heladeriamvc/gui/ProductosControlador.java</url>
-          <line>62</line>
+          <line>53</line>
           <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/luciaia/heladeriamvc/gui/ProductosControlador.java</url>
-          <line>43</line>
-          <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/luciaia/heladeriamvc/gui/ProductosControlador.java</url>
           <line>184</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
+        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/luciaia/heladeriamvc/gui/ProductosControlador.java</url>
-          <line>129</line>
-          <properties class="com.luciaia.heladeriamvc.gui.ProductosControlador" method="limpiarCampos">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="8" />
+          <line>130</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/luciaia/heladeriamvc/gui/ProductosControlador.java</url>
+          <line>168</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/luciaia/heladeriamvc/gui/ProductosControlador.java</url>
+          <line>178</line>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/com/luciaia/heladeriamvc/gui/ProductosControlador.java</url>
@@ -212,6 +227,14 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/luciaia/heladeriamvc/gui/ProductosControlador.java</url>
+          <line>61</line>
+          <properties class="com.luciaia.heladeriamvc.gui.ProductosControlador" method="hayCamposVaciosBatido">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

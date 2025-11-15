@@ -12,7 +12,10 @@
     <constraints>
       <xy x="20" y="20" width="500" height="400"/>
     </constraints>
-    <properties/>
+    <properties>
+      <background color="-133687"/>
+      <foreground color="-12115168"/>
+    </properties>
     <border type="none"/>
     <children>
       <component id="c8365" class="javax.swing.JLabel">
@@ -21,6 +24,7 @@
           <forms/>
         </constraints>
         <properties>
+          <foreground color="-12115168"/>
           <text value="Sabor"/>
         </properties>
       </component>
@@ -39,6 +43,7 @@
           <forms/>
         </constraints>
         <properties>
+          <foreground color="-12115168"/>
           <text value="Tipo Leche"/>
         </properties>
       </component>
@@ -48,6 +53,8 @@
           <forms/>
         </constraints>
         <properties>
+          <background color="-1"/>
+          <foreground color="-12115168"/>
           <model>
             <item value="Entera"/>
             <item value="Sin Lactosa"/>
@@ -63,6 +70,7 @@
           <forms/>
         </constraints>
         <properties>
+          <foreground color="-12115168"/>
           <text value="Litros"/>
         </properties>
       </component>

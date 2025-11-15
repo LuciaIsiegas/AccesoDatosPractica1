@@ -6,7 +6,7 @@ import com.luciaia.heladeriamvc.base.Producto;
 import javax.swing.*;
 import java.awt.*;
 
-public class Ventana {
+public class Ventana extends JFrame {
     private JPanel panel1;
     public JRadioButton heladoRadioButton;
     public JRadioButton gofreRadioButton;
@@ -26,7 +26,6 @@ public class Ventana {
     public JButton cancelarButton;
     public PanelHelado panelHelado;
 
-    public JFrame frame;
     public PanelGofre panelGofre;
     public PanelBatido panelBatido;
     public JMenuBar menuBar;
@@ -39,10 +38,10 @@ public class Ventana {
 
 
     public Ventana() {
-        frame = new JFrame("HeladeríaMVC");
-        frame.setContentPane(panel1);
-        frame.setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
-        frame.setIconImage(new ImageIcon("Icono.png").getImage());
+        setTitle("Heladería MVC");
+        setContentPane(panel1);
+        setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
+        setIconImage(new ImageIcon("Icono.png").getImage());
 
         heladoRadioButton.setSelected(true);
         crearMenu();
@@ -52,23 +51,26 @@ public class Ventana {
         CardLayout cl = (CardLayout) (panelCard.getLayout());
         cl.show(panelCard, "Helado");
 
-        frame.pack();
-        frame.setVisible(true);
-        frame.setLocationRelativeTo(null);
+        pack();
+        setVisible(true);
+        setLocationRelativeTo(null);
 
         initComponents();
     }
 
     public void crearMenu() {
         menuBar = new JMenuBar();
+        menuBar.setBackground(new Color(255,203,133));
         menu = new JMenu("Archivo");
         menuImportar = new JMenuItem("Importar");
+        menuImportar.setBackground(new Color(255,203,133));
         menuExportar = new JMenuItem("Exportar");
+        menuExportar.setBackground(new Color(255,203,133));
 
         menu.add(menuImportar);
         menu.add(menuExportar);
         menuBar.add(menu);
-        frame.setJMenuBar(menuBar);
+        setJMenuBar(menuBar);
     }
 
     public void crearPanelCard() {
@@ -94,3 +96,4 @@ public class Ventana {
         list1.setModel(dlmProducto);
     }
 }
+

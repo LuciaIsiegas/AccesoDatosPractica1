@@ -30,9 +30,11 @@
     <colspec value="left:4dlu:noGrow"/>
     <colspec value="fill:120px:noGrow"/>
     <constraints>
-      <xy x="20" y="20" width="515" height="478"/>
+      <xy x="20" y="20" width="515" height="504"/>
     </constraints>
-    <properties/>
+    <properties>
+      <background color="-133687"/>
+    </properties>
     <border type="empty">
       <font/>
       <size top="10" left="10" bottom="10" right="10"/>
@@ -44,16 +46,20 @@
           <forms/>
         </constraints>
         <properties>
+          <foreground color="-12115168"/>
           <horizontalAlignment value="10"/>
           <text value="Tipo Producto"/>
         </properties>
       </component>
       <component id="453e9" class="javax.swing.JRadioButton" binding="heladoRadioButton" default-binding="true">
         <constraints>
-          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
           <forms defaultalign-horz="false"/>
         </constraints>
         <properties>
+          <background color="-133687"/>
+          <foreground color="-12115168"/>
+          <inheritsPopupMenu value="false"/>
           <text value="Helado"/>
         </properties>
       </component>
@@ -63,6 +69,8 @@
           <forms/>
         </constraints>
         <properties>
+          <background color="-133687"/>
+          <foreground color="-12115168"/>
           <text value="Gofre"/>
         </properties>
       </component>
@@ -72,6 +80,7 @@
           <forms/>
         </constraints>
         <properties>
+          <foreground color="-12115168"/>
           <horizontalAlignment value="10"/>
           <text value="Nombre"/>
         </properties>
@@ -93,6 +102,7 @@
           <forms/>
         </constraints>
         <properties>
+          <foreground color="-12115168"/>
           <horizontalAlignment value="10"/>
           <text value="Precio"/>
         </properties>
@@ -112,6 +122,7 @@
           <forms/>
         </constraints>
         <properties>
+          <foreground color="-12115168"/>
           <horizontalAlignment value="10"/>
           <text value="Fecha Apertura"/>
         </properties>
@@ -122,6 +133,7 @@
           <forms/>
         </constraints>
         <properties>
+          <foreground color="-12115168"/>
           <text value="Fecha Caducidad"/>
         </properties>
       </component>
@@ -130,14 +142,18 @@
           <grid row="6" column="2" row-span="1" col-span="5" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
           <forms/>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-133687"/>
+        </properties>
       </component>
       <component id="1290" class="com.github.lgooddatepicker.components.DatePicker" binding="fechaCaducicdadDatePicker">
         <constraints>
           <grid row="8" column="2" row-span="1" col-span="5" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
           <forms/>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-133687"/>
+        </properties>
       </component>
       <component id="79f8" class="javax.swing.JButton" binding="nuevoButton" default-binding="true">
         <constraints>
@@ -145,6 +161,8 @@
           <forms/>
         </constraints>
         <properties>
+          <background color="-550293"/>
+          <foreground color="-12115168"/>
           <text value="Nuevo"/>
         </properties>
       </component>
@@ -154,6 +172,8 @@
           <forms/>
         </constraints>
         <properties>
+          <background color="-550293"/>
+          <foreground color="-12115168"/>
           <text value="Editar"/>
         </properties>
       </component>
@@ -163,23 +183,11 @@
           <forms/>
         </constraints>
         <properties>
+          <background color="-550293"/>
+          <foreground color="-12115168"/>
           <text value="Eliminar"/>
         </properties>
       </component>
-      <scrollpane id="4d839">
-        <constraints>
-          <grid row="14" column="2" row-span="7" col-span="5" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
-          <forms defaultalign-horz="false" defaultalign-vert="false"/>
-        </constraints>
-        <properties/>
-        <border type="none"/>
-        <children>
-          <component id="e67b" class="javax.swing.JList" binding="list1" default-binding="true">
-            <constraints/>
-            <properties/>
-          </component>
-        </children>
-      </scrollpane>
       <grid id="2bea8" binding="panelCard" layout-manager="CardLayout" hgap="0" vgap="0">
         <constraints>
           <grid row="10" column="0" row-span="1" col-span="7" vsize-policy="3" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
@@ -195,6 +203,8 @@
           <forms/>
         </constraints>
         <properties>
+          <background color="-133687"/>
+          <foreground color="-12115168"/>
           <text value="Batido"/>
         </properties>
       </component>
@@ -204,16 +214,10 @@
           <forms/>
         </constraints>
         <properties>
+          <background color="-689861"/>
+          <font style="1"/>
+          <foreground color="-12115168"/>
           <text value="Borrar Datos"/>
-        </properties>
-      </component>
-      <component id="211c5" class="javax.swing.JButton" binding="guardarButton" default-binding="true">
-        <constraints>
-          <grid row="12" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
-          <forms/>
-        </constraints>
-        <properties>
-          <text value="Guardar"/>
         </properties>
       </component>
       <component id="1e18f" class="javax.swing.JButton" binding="limpiarButton" default-binding="true">
@@ -222,17 +226,53 @@
           <forms/>
         </constraints>
         <properties>
+          <background color="-13435"/>
+          <borderPainted value="false"/>
           <contentAreaFilled value="true"/>
+          <foreground color="-12115168"/>
+          <opaque value="true"/>
           <text value="Limpiar"/>
         </properties>
       </component>
+      <scrollpane id="e814e">
+        <constraints>
+          <grid row="14" column="2" row-span="7" col-span="5" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-horz="false" defaultalign-vert="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="862e2" class="javax.swing.JList" binding="list1" default-binding="true">
+            <constraints/>
+            <properties>
+              <model/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
       <component id="5c306" class="javax.swing.JButton" binding="cancelarButton" default-binding="true">
         <constraints>
           <grid row="12" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
           <forms/>
         </constraints>
         <properties>
+          <background color="-1329280"/>
+          <borderPainted value="false"/>
+          <foreground color="-12115168"/>
           <text value="Cancelar"/>
+        </properties>
+      </component>
+      <component id="211c5" class="javax.swing.JButton" binding="guardarButton" default-binding="true">
+        <constraints>
+          <grid row="12" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <background color="-13435"/>
+          <font style="1"/>
+          <foreground color="-12115168"/>
+          <selected value="false"/>
+          <text value="Guardar"/>
         </properties>
       </component>
     </children>

@@ -9,7 +9,7 @@ public class Util {
         JOptionPane.showMessageDialog(null, msg, titulo, JOptionPane.ERROR_MESSAGE);
     }
 
-    public static void mensajeInfo(String msg, String titulo){
+    public static void mensajeInfo(String msg, String titulo) {
         JOptionPane.showMessageDialog(null, msg, titulo, JOptionPane.INFORMATION_MESSAGE);
     }
 

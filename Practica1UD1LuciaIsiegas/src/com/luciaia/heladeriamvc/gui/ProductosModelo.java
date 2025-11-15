@@ -17,7 +17,6 @@ import java.io.File;
 import java.io.IOException;
 import java.time.LocalDate;
 import java.util.ArrayList;
-import java.util.UUID;
 
 public class ProductosModelo {
     public static final String HELADO = "Helado";
@@ -30,7 +29,6 @@ public class ProductosModelo {
     }
 
     public ArrayList<Producto> obtenerProductos() {
-        //       UUID.randomUUID().toString()
         return listaProductos;
     }
 
@@ -94,15 +92,6 @@ public class ProductosModelo {
         batido.setSabor(sabor);
         batido.setTipoLeche(tipoLeche);
         batido.setLitros(litros);
-    }
-
-    public boolean existeNombre(String nombre) {
-        for (Producto producto : listaProductos) {
-            if (producto.getNombre().equals(nombre)) {
-                return true;
-            }
-        }
-        return false;
     }
 
     public void exportarXML(File fichero) throws ParserConfigurationException, TransformerException {
@@ -256,7 +245,5 @@ public class ProductosModelo {
                 listaProductos.add(batido);
             }
         }
-
-
     }
 }

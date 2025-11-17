@@ -41,7 +41,7 @@ public class Ventana extends JFrame {
         setTitle("Heladería MVC");
         setContentPane(panel1);
         setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
-        setIconImage(new ImageIcon("Icono.png").getImage());
+        setIconImage(new ImageIcon(getClass().getResource("/Icono.png")).getImage());
 
         heladoRadioButton.setSelected(true);
         crearMenu();

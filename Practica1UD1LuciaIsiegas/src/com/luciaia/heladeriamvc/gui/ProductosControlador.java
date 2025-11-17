@@ -466,55 +466,56 @@ public class ProductosControlador implements ActionListener, WindowListener {
         Producto producto;
         try {
             producto = (Producto) vista.list1.getSelectedValue();
+
+
+            vista.nombreTxt.setText(producto.getNombre());
+            vista.precioTxt.setText(String.valueOf(producto.getPrecio()));
+            vista.fechaAperturaDatePicker.setDate(producto.getFechaApertura());
+            vista.fechaCaducicdadDatePicker.setDate(producto.getFechaCaducidad());
+
+            if (producto instanceof Helado) {
+                Helado helado = (Helado) producto;
+                vista.heladoRadioButton.doClick();
+                vista.panelHelado.saborTxt.setText(helado.getSabor());
+                if (helado.isAzucar()) {
+                    vista.panelHelado.conAzucarRadioButton.setSelected(true);
+                } else {
+                    vista.panelHelado.sinAzucarRadioButton.setSelected(true);
+                }
+                vista.panelHelado.litrosHeladoTxt.setText(String.valueOf(helado.getLitros()));
+            } else if (producto instanceof Gofre) {
+                Gofre gofre = (Gofre) producto;
+                vista.gofreRadioButton.doClick();
+                vista.panelGofre.toppingTxt.setText(gofre.getTopping());
+                vista.panelGofre.tipoMasaComboBox.setSelectedItem(gofre.getTipoMasa());
+                if (gofre.isGluten()) {
+                    vista.panelGofre.conGlutenRadioButton.setSelected(true);
+                } else {
+                    vista.panelGofre.sinGlutenRadioButton.setSelected(true);
+                }
+            } else if (producto instanceof Batido) {
+                Batido batido = (Batido) producto;
+                vista.batidoRadioButton.doClick();
+                vista.panelBatido.saborTxt.setText(batido.getSabor());
+                vista.panelBatido.tipoLecheComboBox.setSelectedItem(batido.getTipoLeche());
+                vista.panelBatido.litrosBatidoTxt.setText(String.valueOf(batido.getLitros()));
+            }
+            vista.list1.setEnabled(false);
+            vista.nombreTxt.setEditable(false);
+            vista.heladoRadioButton.setEnabled(false);
+            vista.gofreRadioButton.setEnabled(false);
+            vista.batidoRadioButton.setEnabled(false);
+
+            vista.guardarButton.setVisible(true);
+            vista.cancelarButton.setVisible(true);
+            vista.editarButton.setVisible(false);
+            vista.nuevoButton.setVisible(false);
+            vista.borrarDatosButton.setVisible(false);
+            vista.limpiarButton.setVisible(false);
         } catch (NullPointerException ne) {
             Util.mensajeError("No hay ningún producto seleccionado", "Selecciona un producto");
             return;
         }
-
-        vista.nombreTxt.setText(producto.getNombre());
-        vista.precioTxt.setText(String.valueOf(producto.getPrecio()));
-        vista.fechaAperturaDatePicker.setDate(producto.getFechaApertura());
-        vista.fechaCaducicdadDatePicker.setDate(producto.getFechaCaducidad());
-
-        if (producto instanceof Helado) {
-            Helado helado = (Helado) producto;
-            vista.heladoRadioButton.doClick();
-            vista.panelHelado.saborTxt.setText(helado.getSabor());
-            if (helado.isAzucar()) {
-                vista.panelHelado.conAzucarRadioButton.setSelected(true);
-            } else {
-                vista.panelHelado.sinAzucarRadioButton.setSelected(true);
-            }
-            vista.panelHelado.litrosHeladoTxt.setText(String.valueOf(helado.getLitros()));
-        } else if (producto instanceof Gofre) {
-            Gofre gofre = (Gofre) producto;
-            vista.gofreRadioButton.doClick();
-            vista.panelGofre.toppingTxt.setText(gofre.getTopping());
-            vista.panelGofre.tipoMasaComboBox.setSelectedItem(gofre.getTipoMasa());
-            if (gofre.isGluten()) {
-                vista.panelGofre.conGlutenRadioButton.setSelected(true);
-            } else {
-                vista.panelGofre.sinGlutenRadioButton.setSelected(true);
-            }
-        } else if (producto instanceof Batido) {
-            Batido batido = (Batido) producto;
-            vista.batidoRadioButton.doClick();
-            vista.panelBatido.saborTxt.setText(batido.getSabor());
-            vista.panelBatido.tipoLecheComboBox.setSelectedItem(batido.getTipoLeche());
-            vista.panelBatido.litrosBatidoTxt.setText(String.valueOf(batido.getLitros()));
-        }
-        vista.list1.setEnabled(false);
-        vista.nombreTxt.setEditable(false);
-        vista.heladoRadioButton.setEnabled(false);
-        vista.gofreRadioButton.setEnabled(false);
-        vista.batidoRadioButton.setEnabled(false);
-
-        vista.guardarButton.setVisible(true);
-        vista.cancelarButton.setVisible(true);
-        vista.editarButton.setVisible(false);
-        vista.nuevoButton.setVisible(false);
-        vista.borrarDatosButton.setVisible(false);
-        vista.limpiarButton.setVisible(false);
     }
 
     @Override
